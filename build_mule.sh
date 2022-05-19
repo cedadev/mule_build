@@ -10,7 +10,7 @@ cd `dirname $0`
 
 cd $build_root
 rm -fr mule $mule_env_dir
-git clone git@github.com:metomi/mule.git
+git clone https://github.com/metomi/mule.git
 cd mule
 git checkout $mule_commit
 

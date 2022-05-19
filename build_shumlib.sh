@@ -12,7 +12,7 @@ cd `dirname $0`
 
 cd $build_root
 rm -fr shumlib $shumlib_dir
-git clone git@github.com:metomi/shumlib.git
+git clone https://github.com/metomi/shumlib.git
 cd shumlib
 git checkout $shumlib_commit
 makefile=make/$shumlib_makefile
